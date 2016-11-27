@@ -85,7 +85,7 @@ module.exports = function (grunt) {
           'dist/js/select2.full.js',
           'src/js/wrapper.end.js'
         ],
-        dest: 'dist/js/select2.full.js'
+        dest: '../../projects/illist/frontend/js/libs/select2.full.min.js'
       }
     },
 
@@ -108,8 +108,8 @@ module.exports = function (grunt) {
         }
       },
       'dist.full': {
-        src: 'dist/js/select2.full.js',
-        dest: 'dist/js/select2.full.min.js',
+        src: '../../projects/illist/frontend/js/libs/select2.full.min.js',
+        dest: '../../projects/illist/frontend/js/libs/select2.full.min.js',
         options: {
           banner: minifiedBanner
         }
