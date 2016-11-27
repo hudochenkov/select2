@@ -59,6 +59,8 @@ module.exports = function (grunt) {
 
   var minifiedBanner = '/*! Select2 <%= package.version %> | https://github.com/select2/select2/blob/master/LICENSE.md */';
 
+  minifiedBanner += '\n/*! It\'s a fork special for SNC Finder. Source https://github.com/hudochenkov/select2 */\n';
+
   grunt.initConfig({
     package: grunt.file.readJSON('package.json'),
 
